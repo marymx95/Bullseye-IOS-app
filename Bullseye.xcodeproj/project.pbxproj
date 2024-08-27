@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4456B4B62C7CDE3D00756834 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456B4B52C7CDE3D00756834 /* Game.swift */; };
 		447ADF762C7977F5001D63E8 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ADF752C7977F5001D63E8 /* BullseyeApp.swift */; };
 		447ADF782C7977F5001D63E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ADF772C7977F5001D63E8 /* ContentView.swift */; };
 		447ADF7A2C7977F7001D63E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447ADF792C7977F7001D63E8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4456B4B52C7CDE3D00756834 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		447ADF722C7977F5001D63E8 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		447ADF752C7977F5001D63E8 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		447ADF772C7977F5001D63E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4456B4B22C7CDC2700756834 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4456B4B52C7CDE3D00756834 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4456B4B32C7CDC4200756834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				447ADF772C7977F5001D63E8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4456B4B42C7CDC7500756834 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				447ADF792C7977F7001D63E8 /* Assets.xcassets */,
+				447ADF752C7977F5001D63E8 /* BullseyeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		447ADF692C7977F5001D63E8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +78,9 @@
 		447ADF742C7977F5001D63E8 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				447ADF752C7977F5001D63E8 /* BullseyeApp.swift */,
-				447ADF772C7977F5001D63E8 /* ContentView.swift */,
-				447ADF792C7977F7001D63E8 /* Assets.xcassets */,
+				4456B4B42C7CDC7500756834 /* App */,
+				4456B4B32C7CDC4200756834 /* Views */,
+				4456B4B22C7CDC2700756834 /* Models */,
 				447ADF7B2C7977F7001D63E8 /* Preview Content */,
 			);
 			path = Bullseye;
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				447ADF782C7977F5001D63E8 /* ContentView.swift in Sources */,
+				4456B4B62C7CDE3D00756834 /* Game.swift in Sources */,
 				447ADF762C7977F5001D63E8 /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
